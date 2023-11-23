@@ -8,34 +8,11 @@ using UnityEngine;
 using System.Runtime.CompilerServices;
 using System.Collections;
 
-using System.IO;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
-using BepInEx;
-using BepInEx.Configuration;
-using BepInEx.Logging;
-
 namespace TraitMod
 {
     [HarmonyPatch]
     internal class Traits
     {
-        private readonly Harmony harmony = new Harmony("com.shazixnar.ThreeElementMastertraits");
-        internal static ManualLogSource Log;
-
-        internal static void LogInfo(string msg)
-        {
-            Log.LogInfo(msg);
-        }
-        private void Awake()
-        {
-            Essentials.medsTexts["mainperkburn2d"] = "Burn on enemies deals double damage if the target have 4 or less curses (Burn included)";
-            Log = BaseUnityPlugin.Logger;
-            LogInfo("com.shazixnar.ThreeElementMastertraits 1.0.0 has loaded!");
-            harmony.PatchAll();
-        }
-
         [HarmonyPostfix]
         [HarmonyPatch(typeof(Character), "BeginTurnPerks")]
         public static void BeginTurnPerksPostfix(ref Character __instance)

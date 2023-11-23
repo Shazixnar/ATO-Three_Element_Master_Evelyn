@@ -1,7 +1,7 @@
 ﻿using BepInEx;
 using BepInEx.Logging;
 using HarmonyLib;
-using static Obeliskial_Essentials.Essentials;
+using Obeliskial_Essentials;
 
 namespace TraitMod
 {
@@ -15,10 +15,11 @@ namespace TraitMod
         internal static ManualLogSource Log;
         private void Awake()
         {
+            Essentials.medsTexts["mainperkburn2d"] = "Burn on enemies deals double damage if the target have 4 or less curses (Burn included)";
             Log = Logger;
             Log.LogInfo($"{PluginInfo.PLUGIN_GUID} {PluginInfo.PLUGIN_VERSION} has loaded!");
             // register with Obeliskial Essentials
-            AddModVersionText(PluginInfo.PLUGIN_NAME, PluginInfo.PLUGIN_VERSION, ModDate.ToString());
+            Essentials.AddModVersionText(PluginInfo.PLUGIN_NAME, PluginInfo.PLUGIN_VERSION, ModDate.ToString());
             // apply patches
             harmony.PatchAll();
         }
