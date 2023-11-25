@@ -23,7 +23,7 @@
     "DamageBonusPercentValue": 0.0,
     "DamageBonusPercentValue2": 0.0,
     "DamageBonusPercentValue3": 0.0,
-    "Description": "Burn, Chill and Spark +2. If enemy has 200 Burn, Chill and Spark charges, suffer 400 Fire, Cold and Lightning damage, then remove all charges.",
+    "Description": "Burn, Chill and Spark +2. If enemy has 200 Burn, Chill and Spark charges, suffer 600 Fire, Cold and Lightning damage, then remove all charges.",
     "HealFlatBonus": 0,
     "HealPercentBonus": 0.0,
     "HealReceivedFlatBonus": 0,
@@ -36,7 +36,7 @@
     "ResistModifiedValue2": 0,
     "ResistModifiedValue3": 0,
     "TimesPerRound": 0,
-    "TimesPerTurn": 4,
+    "TimesPerTurn": 0,
     "TraitCard": "",
     "TraitCardForAllHeroes": "",
     "TraitName": "Elemental Amplifier"

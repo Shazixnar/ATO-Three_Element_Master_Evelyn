@@ -21,14 +21,16 @@ namespace TraitMod
             int _perk_chillCharges = __instance.GetAuraCharges("chill");
             int _perk_sparkCharges = __instance.GetAuraCharges("spark");
             int _position = Traverse.Create(__instance).Field("position").GetValue<int>();
-            if (!__instance.IsHero && _perk_sparkCharges > 0 && AtOManager.Instance.TeamHaveTrait("evelynelementalweaver"))
+            if (!__instance.IsHero && _perk_sparkCharges > 0 && _perk_burnCharges > 0 && _perk_chillCharges > 0 && AtOManager.Instance.TeamHaveTrait("evelynelementalweaver"))
             {
                 List<NPC> npcsides = MatchManager.Instance.GetNPCSides(_position);
                 for (int i = 0; i < npcsides.Count; i++)
                 {
-                    npcsides[i].SetAura(null, Globals.Instance.GetAuraCurseData("burn"), Functions.FuncRoundToInt((float)_perk_burnCharges * 0.3f), false, Enums.CardClass.None, true, true);
-                    npcsides[i].SetAura(null, Globals.Instance.GetAuraCurseData("chill"), Functions.FuncRoundToInt((float)_perk_chillCharges * 0.3f), false, Enums.CardClass.None, true, true);
+                    npcsides[i].SetAura(null, Globals.Instance.GetAuraCurseData("burn"), Functions.FuncRoundToInt((float)_perk_sparkCharges * 0.3f), false, Enums.CardClass.None, true, true);
+                    npcsides[i].SetAura(null, Globals.Instance.GetAuraCurseData("chill"), Functions.FuncRoundToInt((float)_perk_sparkCharges * 0.3f), false, Enums.CardClass.None, true, true);
                 }
+                __instance.SetAura(null, Globals.Instance.GetAuraCurseData("burn"), Functions.FuncRoundToInt((float)_perk_sparkCharges * 0.3f), false, Enums.CardClass.None, true, true);
+                __instance.SetAura(null, Globals.Instance.GetAuraCurseData("chill"), Functions.FuncRoundToInt((float)_perk_sparkCharges * 0.3f), false, Enums.CardClass.None, true, true);
             }
         }
 
@@ -41,9 +43,9 @@ namespace TraitMod
             int _trait_sparkCharges = __instance.GetAuraCharges("spark");
             if (!__instance.IsHero && _trait_burnCharges == 200 && _trait_chillCharges == 200 && _trait_sparkCharges == 200 && AtOManager.Instance.TeamHaveTrait("evelynelementalamplifier"))
             {
-                __instance.IndirectDamage(Enums.DamageType.Fire, 400);
-                __instance.IndirectDamage(Enums.DamageType.Cold, 400);
-                __instance.IndirectDamage(Enums.DamageType.Lightning, 400);
+                __instance.IndirectDamage(Enums.DamageType.Fire, 600);
+                __instance.IndirectDamage(Enums.DamageType.Cold, 600);
+                __instance.IndirectDamage(Enums.DamageType.Lightning, 600);
                 for (int i = __instance.AuraList.Count - 1; i >= 0; i--)
                 {
                     if (__instance.AuraList[i].ACData.Id == "burn" || __instance.AuraList[i].ACData.Id == "chill" || __instance.AuraList[i].ACData.Id == "spark")
@@ -58,9 +60,10 @@ namespace TraitMod
         [HarmonyPatch(typeof(Character), "SetEvent")]
         public static void SetEventPrefix(ref Character __instance, ref Enums.EventActivation theEvent, Character target = null)
         {
-            if (theEvent == Enums.EventActivation.BeginTurn && !__instance.IsHero && AtOManager.Instance.TeamHaveTrait("evelynelementalweaver") && __instance.HasEffect("spark"))
-            { // if team have trait "evelynelementalweaver", burn on enemy deals 30% of spark charges as fire damage
-                __instance.IndirectDamage(Enums.DamageType.Fire, Functions.FuncRoundToInt((float)__instance.GetAuraCharges("spark") * 0.3f));
+            if (theEvent == Enums.EventActivation.BeginTurn && !__instance.IsHero && AtOManager.Instance.TeamHaveTrait("evelynelementalweaver") && __instance.HasEffect("burn"))
+            { // if team have trait "evelynelementalweaver", burn on enemy deals 15% of burn charges as fire and lightning damage
+                __instance.IndirectDamage(Enums.DamageType.Fire, Functions.FuncRoundToInt((float)__instance.GetAuraCharges("burn") * 0.15f));
+                __instance.IndirectDamage(Enums.DamageType.Lightning, Functions.FuncRoundToInt((float)__instance.GetAuraCharges("burn") * 0.15f));
             }
         }
 
