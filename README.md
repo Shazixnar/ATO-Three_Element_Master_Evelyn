@@ -7,9 +7,9 @@ A content pack for [Obeliskial Content](https://across-the-obelisk.thunderstore.
 
 ### Enchantments
 
-![Elemental_Proliferation](Picture/Elemental_Proliferation.png)
+![Elemental_Proliferation](https://github.com/4AleRoL4/ATO-Three_Element_Master_Evelyn/blob/main/Picture/Elemental_Proliferation.png?raw=true)
 
-![Arcane_Conduit](Picture/Arcane_Conduit.png)
+![Arcane_Conduit](https://github.com/4AleRoL4/ATO-Three_Element_Master_Evelyn/blob/main/Picture/Arcane_Conduit.png?raw=true)
 
 </details>
 
@@ -30,15 +30,15 @@ Elemental Amplifier: Burn, Chill and Spark +2. If enemy has 200 Burn, Chill and 
 
 ### Cards
 
-![Meteor_Shower](Picture/Meteor_Shower.png)
+![Meteor_Shower](https://github.com/4AleRoL4/ATO-Three_Element_Master_Evelyn/blob/main/Picture/Meteor_Shower.png?raw=true)
 
-![Blizzard](Picture/Blizzard.png)
+![Blizzard](https://github.com/4AleRoL4/ATO-Three_Element_Master_Evelyn/blob/main/Picture/Blizzard.png?raw=true)
 
-![Electrocute](Picture/Electrocute.png)
+![Electrocute](https://github.com/4AleRoL4/ATO-Three_Element_Master_Evelyn/blob/main/Picture/Electrocute.png?raw=true)
 
 And there are 15 more cards. You can check them out in game's Tome of Knowledge.
 
-Cards list: **Blizzard**, **Chain Lightning**, **Disintegrate**, **Electric Discharge**, **Electrocute**, **Elemental Bolt**, **Fireball**, **Flamestrike**, **Grimoire of Flames**, **Ice Comet**, **Ignite**, **Mass Dispel**, **Meteor Shower**, **Meteorite**, **Pyroblast**, **Ray of Frost**, **Searing Nova**, **Shock Nova**
+Cards List: **Blizzard**, **Chain Lightning**, **Disintegrate**, **Electric Discharge**, **Electrocute**, **Elemental Bolt**, **Fireball**, **Flamestrike**, **Grimoire of Flames**, **Ice Comet**, **Ignite**, **Mass Dispel**, **Meteor Shower**, **Meteorite**, **Pyroblast**, **Ray of Frost**, **Searing Nova**, **Shock Nova**
 </details>
 
 <details>
@@ -69,6 +69,8 @@ I'll be modifying this data frequently to make balance. So the picture maybe isn
 ## Support
 
 I will keep watching for cards strength, try to make sure these cards display their strength that should be there.
+
+Evelyn's traits are prefer using three different curses to deal damage, not the direct damage, So I modify the fourth of burn perk to fit the mods.
 
 Hope you enjoy it and if have any idea or bug, just open a github issue or make a post in the **modding #support-and-requests** channel of the [official Across the Obelisk Discord](https://discord.gg/across-the-obelisk-679706811108163701).
 

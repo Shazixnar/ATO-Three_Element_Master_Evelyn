@@ -5,10 +5,10 @@
   },
   "projects": {
     "D:\\Workspace\\ATOmod\\ATO-Three_Element_Master_Evelyn\\ATO-Three_Element_Master_Evelyn_TraitMod\\TraitMod.csproj": {
-      "version": "1.0.0",
+      "version": "1.0.1",
       "restore": {
         "projectUniqueName": "D:\\Workspace\\ATOmod\\ATO-Three_Element_Master_Evelyn\\ATO-Three_Element_Master_Evelyn_TraitMod\\TraitMod.csproj",
-        "projectName": "com.shazixnar.ThreeElementMastertraits",
+        "projectName": "com.shazixnar.ThreeElementMasterTraits",
         "projectPath": "D:\\Workspace\\ATOmod\\ATO-Three_Element_Master_Evelyn\\ATO-Three_Element_Master_Evelyn_TraitMod\\TraitMod.csproj",
         "packagesPath": "C:\\Users\\alero\\.nuget\\packages\\",
         "outputPath": "D:\\Workspace\\ATOmod\\ATO-Three_Element_Master_Evelyn\\ATO-Three_Element_Master_Evelyn_TraitMod\\obj\\",
