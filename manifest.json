@@ -1,10 +1,10 @@
 {
     "name": "Three_Element_Master_Evelyn",
-    "version_number": "1.0.1",
+    "version_number": "1.0.2",
     "website_url": "https://github.com/4AleRoL4/ATO-Three_Element_Master_Evelyn",
     "description": "redo Evelyn's traits, element cards and one perk",
     "dependencies": [
-        "meds-Obeliskial_Essentials-1.0.0",
-        "meds-Obeliskial_Content-1.0.0"
+        "meds-Obeliskial_Essentials-1.1.0",
+        "meds-Obeliskial_Content-1.1.0"
     ]
 }

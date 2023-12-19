@@ -68,7 +68,7 @@ namespace TraitMod
         }
 
         // list of your trait IDs
-        public static string[] myTraitList = { };
+        /*public static string[] myTraitList = { };
 
         public static void myDoTrait(string _trait, ref Trait __instance)
         {
@@ -119,7 +119,7 @@ namespace TraitMod
             int cCharges = currentCharges;
             int cTotal = chargesTotal;
             return "<br><color=#FFF>" + cCharges.ToString() + "/" + cTotal.ToString() + "</color>";
-        }
+        }*/
         
         [HarmonyPostfix]
         [HarmonyPatch(typeof(AtOManager), "GlobalAuraCurseModificationByTraitsAndItems")]

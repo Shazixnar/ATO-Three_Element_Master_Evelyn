@@ -2,11 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
-	<RootNamespace>TraitMod</RootNamespace>
-	<Product>ThreeElementMasterTraits</Product>
+	<RootNamespace>ThreeElementMasterEvelyn</RootNamespace>
+	<Product>Three Element Master Evelyn</Product>
     <AssemblyName>com.shazixnar.ThreeElementMasterTraits</AssemblyName>
     <Description>three element master Evelyn, made by Shazixnar</Description>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
