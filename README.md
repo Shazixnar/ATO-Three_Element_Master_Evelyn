@@ -1,6 +1,6 @@
 # Three Element Master Evelyn
 
-A content pack for [Obeliskial Content](https://across-the-obelisk.thunderstore.io/package/meds/Obeliskial_Content/) that redo Evelyn's traits, element cards and one perk.
+A content pack for [Obeliskial Content](https://across-the-obelisk.thunderstore.io/package/meds/Obeliskial_Content/) that redo Evelyn's traits and one perk.
 
 <details>
 <summary>Enchantments</summary>
@@ -23,22 +23,6 @@ Elemental Weaver: Burn on enemy deals 15% of burn charges as fire and lightning 
 ### Level 5
 
 Elemental Amplifier: Burn, Chill and Spark +2. If enemy has 200 Burn, Chill and Spark charges, suffer 600 Fire, Cold and Lightning damage, then remove all charges.
-</details>
-
-<details>
-<summary>Cards</summary>
-
-### Cards
-
-![Meteor_Shower](https://github.com/4AleRoL4/ATO-Three_Element_Master_Evelyn/blob/main/Picture/Meteor_Shower.png?raw=true)
-
-![Blizzard](https://github.com/4AleRoL4/ATO-Three_Element_Master_Evelyn/blob/main/Picture/Blizzard.png?raw=true)
-
-![Electrocute](https://github.com/4AleRoL4/ATO-Three_Element_Master_Evelyn/blob/main/Picture/Electrocute.png?raw=true)
-
-And there are 15 more cards. You can check them out in game's Tome of Knowledge.
-
-Cards List: **Blizzard**, **Chain Lightning**, **Disintegrate**, **Electric Discharge**, **Electrocute**, **Elemental Bolt**, **Fireball**, **Flamestrike**, **Grimoire of Flames**, **Ice Comet**, **Ignite**, **Mass Dispel**, **Meteor Shower**, **Meteorite**, **Pyroblast**, **Ray of Frost**, **Searing Nova**, **Shock Nova**
 </details>
 
 <details>
