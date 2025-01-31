@@ -1,3 +1,7 @@
+# 1.1.1
+
+Redo two enhancements.
+
 # 1.1.0
 
 Separate all cards to another mod.

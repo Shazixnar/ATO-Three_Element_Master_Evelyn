@@ -7,9 +7,11 @@ A content pack for [Obeliskial Content](https://across-the-obelisk.thunderstore.
 
 ### Enchantments
 
-![Elemental_Proliferation](https://github.com/4AleRoL4/ATO-Three_Element_Master_Evelyn/blob/main/Picture/Elemental_Proliferation.png?raw=true)
+![Elemental_Proliferation](https://github.com/Shazixnar/ATO-Three_Element_Master_Evelyn/blob/main/Picture/Elemental_Proliferation.png?raw=true)
 
-![Arcane_Conduit](https://github.com/4AleRoL4/ATO-Three_Element_Master_Evelyn/blob/main/Picture/Arcane_Conduit.png?raw=true)
+![Arcane_Conduit](https://github.com/Shazixnar/ATO-Three_Element_Master_Evelyn/blob/main/Picture/Arcane_Conduit.png?raw=true)
+
+PS: Arcane Conduit have many cards can be discovered, includes fire, lightning and cold spell.
 
 </details>
 
