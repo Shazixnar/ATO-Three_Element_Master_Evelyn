@@ -11,7 +11,7 @@ namespace ThreeElementMasterEvelyn
     [BepInProcess("AcrossTheObelisk.exe")]
     public class Plugin : BaseUnityPlugin
     {
-        internal const int ModDate = 20250131;
+        internal const int ModDate = 20250725;
         private readonly Harmony harmony = new(PluginInfo.PLUGIN_GUID);
         internal static ManualLogSource Log;
         private void Awake()
@@ -29,7 +29,7 @@ namespace ThreeElementMasterEvelyn
                 _contentFolder: "Three Element Master Evelyn",
                 _type: new string[5] { "content", "hero", "trait", "card", "perk" }
             );
-            Essentials.medsTexts["custommainperkburn2d"] = "Burn on enemies deals double damage if the target have 4 or less curses (Burn included)";
+            Essentials.medsTexts["custommainperkburn2d"] = "Burn on enemies deals double damage if the target have 5 or less curses (Burn included)";
             // apply patches
             harmony.PatchAll();
         }

@@ -32,7 +32,7 @@ Elemental Amplifier: Burn, Chill and Spark +2. If enemy has 200 Burn, Chill and 
 
 ### Perks
 
-The fourth of burn perk: Burn on enemies deals double damage if the target have 4 or less curses (Burn included).
+The fourth of burn perk: Burn on enemies deals double damage if the target have 5 or less curses (Burn included).
 </details>
 
 I'll be modifying this data frequently to make balance. So the picture maybe isn't the true number. You can check them out at the Tome of Knowledge in game.

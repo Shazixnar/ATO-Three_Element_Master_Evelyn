@@ -23,7 +23,7 @@
     "DamageBonusPercentValue": 0.0,
     "DamageBonusPercentValue2": 0.0,
     "DamageBonusPercentValue3": 0.0,
-    "Description": "Burn on enemy deals 15% of burn charges as fire and lightning damage at beginning of turn too. Chill can reduce 0.3% lightning resistance per charge. Spark on enemies with Burn and Chill applies X Burn and Chill (X equals 30% of its Spark charges) to the enemy and the sides, at the start of the turn.",
+    "Description": "Burn on enemy deals 15% of burn charges as fire and lightning damage at beginning of turn too.<br>Chill can reduce 0.3% lightning resistance per charge.<br>Spark on enemies with Burn and Chill applies X Burn and Chill (X equals 30% of its Spark charges) to the enemy and the sides, at the start of the turn.",
     "HealFlatBonus": 0,
     "HealPercentBonus": 0.0,
     "HealReceivedFlatBonus": 0,

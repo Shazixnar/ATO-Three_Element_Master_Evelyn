@@ -1,3 +1,7 @@
+# 1.1.2
+
+The fourth of burn perk: Burn on enemies deals double damage if the target have 5 or less curses (Burn included).
+
 # 1.1.1
 
 Redo two enhancements.
